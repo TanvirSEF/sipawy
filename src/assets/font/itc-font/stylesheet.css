@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'ITC Kabel Std';
+    src: url('ITCKabelStd-Bold.eot');
+    src: url('ITCKabelStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ITCKabelStd-Bold.woff2') format('woff2'),
+        url('ITCKabelStd-Bold.woff') format('woff'),
+        url('ITCKabelStd-Bold.ttf') format('truetype'),
+        url('ITCKabelStd-Bold.svg#ITCKabelStd-Bold') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Kabel Std Book';
+    src: url('ITCKabelStd-Book.eot');
+    src: url('ITCKabelStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('ITCKabelStd-Book.woff2') format('woff2'),
+        url('ITCKabelStd-Book.woff') format('woff'),
+        url('ITCKabelStd-Book.ttf') format('truetype'),
+        url('ITCKabelStd-Book.svg#ITCKabelStd-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Kabel Std Book';
+    src: url('ITCKabelStd-Demi.eot');
+    src: url('ITCKabelStd-Demi.eot?#iefix') format('embedded-opentype'),
+        url('ITCKabelStd-Demi.woff2') format('woff2'),
+        url('ITCKabelStd-Demi.woff') format('woff'),
+        url('ITCKabelStd-Demi.ttf') format('truetype'),
+        url('ITCKabelStd-Demi.svg#ITCKabelStd-Demi') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Kabel Std';
+    src: url('ITCKabelStd-Medium.eot');
+    src: url('ITCKabelStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ITCKabelStd-Medium.woff2') format('woff2'),
+        url('ITCKabelStd-Medium.woff') format('woff'),
+        url('ITCKabelStd-Medium.ttf') format('truetype'),
+        url('ITCKabelStd-Medium.svg#ITCKabelStd-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Kabel Std Ultra';
+    src: url('ITCKabelStd-Ultra.eot');
+    src: url('ITCKabelStd-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('ITCKabelStd-Ultra.woff2') format('woff2'),
+        url('ITCKabelStd-Ultra.woff') format('woff'),
+        url('ITCKabelStd-Ultra.ttf') format('truetype'),
+        url('ITCKabelStd-Ultra.svg#ITCKabelStd-Ultra') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
