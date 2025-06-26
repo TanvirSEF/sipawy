@@ -1,13 +1,13 @@
-import PricingHero from '../../Components/Pricing/PricingHero'
-import Newslatter from '../../Components/Pricing/Newslatter'
+import PricingHero from "../../components/Pricing/PricingHero";
+import Newslatter from "../../components/Pricing/Newslatter";
 
 const Pricing = () => {
   return (
     <>
-      <PricingHero/>
-      <Newslatter/>
+      <PricingHero />
+      <Newslatter />
     </>
-  )
-}
+  );
+};
 
-export default Pricing
+export default Pricing;

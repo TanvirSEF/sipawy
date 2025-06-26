@@ -1,5 +1,5 @@
-import ProductSellCard from "@/Components/CustomComponents/ProductSellCard";
-import SalesChart from "@/Components/CustomComponents/SalesChart";
+import ProductSellCard from "@/components/CustomComponents/ProductSellCard";
+import SalesChart from "@/components/CustomComponents/SalesChart";
 import { useContext, useState } from "react";
 import useFetchData from "../Hooks/Api/UseFetchData";
 import { format } from "date-fns";

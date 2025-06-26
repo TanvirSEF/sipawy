@@ -1,7 +1,7 @@
 import Container from "@/Shared/Container";
 import { useState } from "react";
 import Signupbg from "../../assets/images/Signup/signupmainbg.png";
-import useAxios from "@/Components/Hooks/Api/Useaxios";
+import useAxios from "@/components/Hooks/Api/UseAxios";
 import toast from "react-hot-toast";
 import { PiSpinnerBold } from "react-icons/pi";
 import { REGEXP_ONLY_DIGITS } from "input-otp";

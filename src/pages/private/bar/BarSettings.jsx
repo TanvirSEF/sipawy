@@ -1,9 +1,9 @@
-import TextWithReadMore from "@/Components/CustomComponents/TextWithReadMore";
-import SupportAccordion from "@/Components/CustomSection/SupportAccordion";
-import useAxios from "@/Components/Hooks/Api/UseAxios";
-import NotifyBtn from "@/Components/ui/CustomUi/NotifyBtn";
-import { Input } from "@/Components/ui/input";
-import { Label } from "@/Components/ui/label";
+import TextWithReadMore from "@/components/CustomComponents/TextWithReadMore";
+import SupportAccordion from "@/components/CustomSection/SupportAccordion";
+import useAxios from "@/components/Hooks/Api/UseAxios";
+import NotifyBtn from "@/components/ui/CustomUi/NotifyBtn";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import {
   Accordion,
   AccordionContent,
@@ -16,7 +16,6 @@ import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 
 const BarSettings = () => {
-
   const Axios = useAxios();
   const {
     register,
@@ -49,7 +48,7 @@ const BarSettings = () => {
 
       toast.success("Account deactivation request sent.");
       reset();
-      Navigate("/")
+      Navigate("/");
       localStorage.removeItem("usertoken");
     } catch (error) {
       console.error(error);
@@ -58,9 +57,6 @@ const BarSettings = () => {
       setLoading(false);
     }
   };
-
-
-
 
   const features = [
     {
@@ -198,7 +194,13 @@ const BarSettings = () => {
             <AccordionTrigger>Privacy policy</AccordionTrigger>
             <AccordionContent className="py-6 border border-[#C8C8C8] rounded-[4px] px-4 sm:px-6 lg:px-12">
               <TextWithReadMore wordLimit="170">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat magni quasi sit atque eius quibusdam architecto optio ratione accusantium impedit sed omnis asperiores neque quidem, id necessitatibus repudiandae commodi! Illum corrupti minus nam amet omnis deleniti incidunt quaerat aspernatur molestias vel impedit, dolorem, soluta veritatis voluptatum. Quasi tempora eius fugiat.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Quaerat magni quasi sit atque eius quibusdam architecto optio
+                ratione accusantium impedit sed omnis asperiores neque quidem,
+                id necessitatibus repudiandae commodi! Illum corrupti minus nam
+                amet omnis deleniti incidunt quaerat aspernatur molestias vel
+                impedit, dolorem, soluta veritatis voluptatum. Quasi tempora
+                eius fugiat.
               </TextWithReadMore>
             </AccordionContent>
           </AccordionItem>
@@ -208,7 +210,13 @@ const BarSettings = () => {
             <AccordionTrigger>Terms & conditions</AccordionTrigger>
             <AccordionContent className="py-6 border border-[#C8C8C8] rounded-[4px] px-4 sm:px-6 lg:px-12">
               <TextWithReadMore wordLimit="220">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, necessitatibus corrupti? Sit, dolor reprehenderit? Repudiandae cumque alias non quidem ea. Ea sed, asperiores inventore nihil libero tenetur harum aperiam impedit dolore vero, rem at. Maiores veniam eum consequatur nostrum exercitationem, in voluptates possimus aut ex optio doloribus voluptatem dolorum ipsam!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+                necessitatibus corrupti? Sit, dolor reprehenderit? Repudiandae
+                cumque alias non quidem ea. Ea sed, asperiores inventore nihil
+                libero tenetur harum aperiam impedit dolore vero, rem at.
+                Maiores veniam eum consequatur nostrum exercitationem, in
+                voluptates possimus aut ex optio doloribus voluptatem dolorum
+                ipsam!
               </TextWithReadMore>
             </AccordionContent>
           </AccordionItem>

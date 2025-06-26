@@ -5,7 +5,7 @@ import { FaEyeSlash } from "react-icons/fa6";
 import { IoEyeSharp } from "react-icons/io5";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useForm } from "react-hook-form";
-import useAxios from "@/Components/Hooks/Api/Useaxios";
+import useAxios from "@/components/Hooks/Api/UseAxios";
 import toast from "react-hot-toast";
 import { PiSpinnerBold } from "react-icons/pi";
 

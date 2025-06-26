@@ -1,15 +1,15 @@
-import Hero from '../../Components/Contact/Hero'
-import GetinTouch from '../../Components/Contact/GetinTouch'
-import OurMission from '../../Components/Contact/OurMission'
+import Hero from "../../components/Contact/Hero";
+import GetinTouch from "../../components/Contact/GetinTouch";
+import OurMission from "../../components/Contact/OurMission";
 
 const Contact = () => {
   return (
     <>
-      <Hero/>
-      <GetinTouch/>
-      <OurMission/>
+      <Hero />
+      <GetinTouch />
+      <OurMission />
     </>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

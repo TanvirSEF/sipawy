@@ -1,6 +1,6 @@
-import MostSelling from "@/Components/CustomComponents/MostSelling";
-import Revenue from "@/Components/CustomComponents/Revenue";
-import UnderSelling from "@/Components/CustomComponents/UnderSelling";
+import MostSelling from "@/components/CustomComponents/MostSelling";
+import Revenue from "@/components/CustomComponents/Revenue";
+import UnderSelling from "@/components/CustomComponents/UnderSelling";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import PurchaseCost from "./PurchaseCost";
 import { useState } from "react";

@@ -2,7 +2,7 @@ import Container from "@/Shared/Container";
 import Signupbg from "../../assets/images/Signup/signupmainbg.png";
 import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
-import useAxios from "@/Components/Hooks/Api/Useaxios";
+import useAxios from "@/components/Hooks/Api/UseAxios";
 import toast from "react-hot-toast";
 import { PiSpinnerBold } from "react-icons/pi";
 
@@ -30,7 +30,7 @@ const ForgotPass = () => {
       console.log(response);
       toast.success("Password reset otp sent to your email");
       reset();
-      Navigate("/verify-code", { state: { email: data.email } }); 
+      Navigate("/verify-code", { state: { email: data.email } });
     } catch (error) {
       toast.error(error.response?.data?.message || "Something went wrong");
     }

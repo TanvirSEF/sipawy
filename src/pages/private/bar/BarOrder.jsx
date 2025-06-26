@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
-import useFetchData from "@/Components/Hooks/Api/UseFetchData";
+import useFetchData from "@/components/Hooks/Api/UseFetchData";
 import { motion, AnimatePresence } from "framer-motion";
-import useAxios from "@/Components/Hooks/Api/UseAxios";
+import useAxios from "@/components/Hooks/Api/UseAxios";
 import { PuffLoader } from "react-spinners";
 import toast from "react-hot-toast";
 import jsPDF from "jspdf";

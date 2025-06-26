@@ -1,5 +1,5 @@
-import Monthlysalescostcharts from "@/Components/CustomComponents/Monthlysalescostcharts";
-import useFetchData from "@/Components/Hooks/Api/UseFetchData";
+import Monthlysalescostcharts from "@/components/CustomComponents/Monthlysalescostcharts";
+import useFetchData from "@/components/Hooks/Api/UseFetchData";
 import {
   Popover,
   PopoverTrigger,
@@ -19,8 +19,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/Components/ui/table";
-import { MainContext } from "@/Components/Context/ChartInfoContext";
+} from "@/components/ui/table";
+import { MainContext } from "@/components/Context/ChartInfoContext";
 
 const PurchaseCost = () => {
   const [costTable, setCostTable] = useState(false);

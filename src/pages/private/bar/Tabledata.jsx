@@ -1,4 +1,4 @@
-import useFetchData from "@/Components/Hooks/Api/UseFetchData";
+import useFetchData from "@/components/Hooks/Api/UseFetchData";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";

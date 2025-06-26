@@ -16,12 +16,12 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import useAxios from "@/Components/Hooks/Api/UseAxios";
+import useAxios from "@/components/Hooks/Api/UseAxios";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { Camera } from "lucide-react";
 import { PiSpinnerBold } from "react-icons/pi";
-import useFetchData from "@/Components/Hooks/Api/UseFetchData";
+import useFetchData from "@/components/Hooks/Api/UseFetchData";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 
 const BarStaffs = () => {

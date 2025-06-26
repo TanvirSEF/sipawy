@@ -5,8 +5,8 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { EditIcon } from "@/assets/icons/icons";
 import toast from "react-hot-toast";
-import useAxios from "@/Components/Hooks/Api/UseAxios";
-import useFetchData from "@/Components/Hooks/Api/UseFetchData";
+import useAxios from "@/components/Hooks/Api/UseAxios";
+import useFetchData from "@/components/Hooks/Api/UseFetchData";
 import { PiSpinnerBold } from "react-icons/pi";
 
 const items = [
@@ -79,7 +79,6 @@ export default function ProfileDetails() {
         },
       });
       console.log(res);
-      
 
       toast.success("Successfully updated profile");
     } catch (err) {
@@ -94,7 +93,6 @@ export default function ProfileDetails() {
   const token = userToken?.token;
   const { data: barprofileinfo } = useFetchData("/api/me", token);
   console.log(barprofileinfo);
-  
 
   useEffect(() => {
     if (barprofileinfo?.data) {
@@ -105,7 +103,9 @@ export default function ProfileDetails() {
         address: barprofileinfo.data.address ?? "",
         description: barprofileinfo.data.description ?? "",
         profileImageUrl: barprofileinfo.data.cover_photo
-          ? `${import.meta.env.VITE_BASE_URL}/${barprofileinfo.data.cover_photo}`
+          ? `${import.meta.env.VITE_BASE_URL}/${
+              barprofileinfo.data.cover_photo
+            }`
           : prev.profileImageUrl,
       }));
     }
@@ -125,7 +125,10 @@ export default function ProfileDetails() {
               />
             </figure>
             <div className="mx-auto w-fit mb-12 relative pt-38">
-              <div {...getRootProps()} className="relative cursor-pointer group">
+              <div
+                {...getRootProps()}
+                className="relative cursor-pointer group"
+              >
                 <input {...getInputProps()} />
                 <div className="size-[220px] rounded-full overflow-hidden border-2 border-gray-200 bg-gray-100 relative">
                   <img
@@ -185,7 +188,9 @@ export default function ProfileDetails() {
                 isSubmitting ? "opacity-70 cursor-not-allowed" : ""
               }`}
             >
-              {isSubmitting && <PiSpinnerBold className="w-5 h-5 animate-spin" />}
+              {isSubmitting && (
+                <PiSpinnerBold className="w-5 h-5 animate-spin" />
+              )}
               {isSubmitting ? "Saving..." : "Save changes"}
             </button>
           </div>

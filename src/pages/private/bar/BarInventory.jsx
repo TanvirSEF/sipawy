@@ -25,10 +25,10 @@ import { CalenderIcon } from "@/assets/icons/icons";
 import { ClockIcon, EditIcon, Pencil } from "lucide-react";
 import { useForm, Controller } from "react-hook-form";
 import { useDropzone } from "react-dropzone";
-import useAxios from "@/Components/Hooks/Api/UseAxios";
+import useAxios from "@/components/Hooks/Api/UseAxios";
 import toast from "react-hot-toast";
 import { PiSpinnerBold } from "react-icons/pi";
-import useFetchData from "@/Components/Hooks/Api/UseFetchData";
+import useFetchData from "@/components/Hooks/Api/UseFetchData";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
 

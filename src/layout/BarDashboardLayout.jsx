@@ -1,5 +1,5 @@
-import BarDashboardSideBar from "@/Components/CustomSection/BarDashboardSideBar";
-import BarDashboardNavBar from "@/Components/CustomSection/BarDashboardNavBar";
+import BarDashboardSideBar from "@/components/CustomSection/BarDashboardSideBar";
+import BarDashboardNavBar from "@/components/CustomSection/BarDashboardNavBar";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";

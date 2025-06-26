@@ -5,7 +5,7 @@ import { FaEyeSlash } from "react-icons/fa6";
 import { IoEyeSharp } from "react-icons/io5";
 import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
-import useAxios from "@/Components/Hooks/Api/Useaxios";
+import useAxios from "@/components/Hooks/Api/UseAxios";
 import toast from "react-hot-toast";
 import { PiSpinnerBold } from "react-icons/pi";
 
@@ -28,17 +28,17 @@ const Login = () => {
           "Content-Type": "application/json",
         },
       });
-  
+
       const tokenData = response?.data?.data;
-  
+
       if (!tokenData?.token) {
         throw new Error(response?.data?.message || "Invalid credentials");
       }
-  
+
       localStorage.setItem("usertoken", JSON.stringify(tokenData));
       localStorage.setItem("role", tokenData.userData.role);
       toast.success("Logged in successfully");
-  
+
       const redirectPath = localStorage.getItem("redirectPath");
       if (redirectPath) {
         localStorage.removeItem("redirectPath");
@@ -57,16 +57,13 @@ const Login = () => {
             break;
         }
       }
-  
+
       reset();
     } catch (error) {
       console.error("Login Error:", error);
-      toast.error(
-        "Something went wrong"
-      );
+      toast.error("Something went wrong");
     }
   };
-  
 
   return (
     <section className="bg-[#000] min-h-screen flex items-center py-10 px-3 sm:py-16">

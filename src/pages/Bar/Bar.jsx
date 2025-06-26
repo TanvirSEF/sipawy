@@ -1,13 +1,13 @@
-import Hero from '../../Components/Bar/Hero'
-import Bararea from '../../Components/Bar/Bararea'
+import Hero from "../../components/Bar/Hero";
+import Bararea from "../../components/Bar/Bararea";
 
 const Bar = () => {
   return (
     <>
-      <Hero/>
-      <Bararea/>
+      <Hero />
+      <Bararea />
     </>
-  )
-}
+  );
+};
 
-export default Bar
+export default Bar;

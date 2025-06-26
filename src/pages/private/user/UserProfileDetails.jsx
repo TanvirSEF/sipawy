@@ -6,8 +6,8 @@ import { useDropzone } from "react-dropzone";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { EditIcon } from "@/assets/icons/icons";
-import useAxios from "@/Components/Hooks/Api/UseAxios";
-import useFetchData from "@/Components/Hooks/Api/UseFetchData";
+import useAxios from "@/components/Hooks/Api/UseAxios";
+import useFetchData from "@/components/Hooks/Api/UseFetchData";
 import {
   Select,
   SelectContent,
@@ -86,7 +86,7 @@ export default function UserProfileDetails() {
     }
   };
 
-  const imageFromAPI = `${import.meta.env.VITE_BASE_URL}/${data?.data?.avatar}`
+  const imageFromAPI = `${import.meta.env.VITE_BASE_URL}/${data?.data?.avatar}`;
 
   return (
     <section className="pt-12 px-10 font-poppins">

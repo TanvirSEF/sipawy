@@ -1,6 +1,6 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
-import UserDashboardSideBar from "@/Components/CustomSection/UserDashboardSideBar";
-import UserDashboardNavBar from "@/Components/CustomSection/UserDashboardNavBar";
+import UserDashboardSideBar from "@/components/CustomSection/UserDashboardSideBar";
+import UserDashboardNavBar from "@/components/CustomSection/UserDashboardNavBar";
 import { useEffect, useRef, useState } from "react";
 import { Menu, X } from "lucide-react";
 

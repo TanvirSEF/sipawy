@@ -1,9 +1,9 @@
-import About from "../../Components/Home/About";
-import Customer from "../../Components/Home/Customer";
-import Enjoyment from "../../Components/Home/Enjoyment";
-import Hero from "../../Components/Home/Hero";
-import Pricingplan from "../../Components/Home/Pricingplan";
-import Whychooseus from "../../Components/Home/Whychooseus";
+import About from "../../components/Home/About";
+import Customer from "../../components/Home/Customer";
+import Enjoyment from "../../components/Home/Enjoyment";
+import Hero from "../../components/Home/Hero";
+import Pricingplan from "../../components/Home/Pricingplan";
+import Whychooseus from "../../components/Home/Whychooseus";
 
 function Home() {
   return (

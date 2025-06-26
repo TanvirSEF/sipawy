@@ -9,12 +9,12 @@ import {
 } from "@/components/ui/select";
 
 import { useForm } from "react-hook-form";
-import useAxios from "@/Components/Hooks/Api/UseAxios";
+import useAxios from "@/components/Hooks/Api/UseAxios";
 import toast from "react-hot-toast";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import Tabledata from "./Tabledata";
 import { Link } from "react-router-dom";
-import useFetchData from "@/Components/Hooks/Api/UseFetchData";
+import useFetchData from "@/components/Hooks/Api/UseFetchData";
 
 const Addtable = () => {
   const {

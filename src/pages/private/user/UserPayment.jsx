@@ -13,7 +13,7 @@ import {
 
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
-import { Checkbox } from "@/Components/ui/checkbox";
+import { Checkbox } from "@/components/ui/checkbox";
 
 const formSchema = z.object({
   paymentOption: z.string().nonempty("Please select a payment method"),

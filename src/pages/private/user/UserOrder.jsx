@@ -1,11 +1,11 @@
 import { CiLocationOn } from "react-icons/ci";
 import "swiper/css";
 import "swiper/css/pagination";
-import Pagination from "@/Components/CustomComponents/Pagination";
-import DialogReceipt from "@/Components/CustomSection/DialogReceipt";
+import Pagination from "@/components/CustomComponents/Pagination";
+import DialogReceipt from "@/components/CustomSection/DialogReceipt";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import useFetchData from "@/Components/Hooks/Api/UseFetchData";
+import useFetchData from "@/components/Hooks/Api/UseFetchData";
 import { FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
 
 const UserOrder = () => {
