@@ -7,7 +7,7 @@ function ChartInfoContext({ children }) {
   const [selectdate, setSelectdate] = useState(null); 
 
   const value = {
-    chartInfo,
+    chartInfo, 
     setChartInfo,
     selectdate,      
     setSelectdate,   
